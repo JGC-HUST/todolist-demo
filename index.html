@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+<div class="header">
+    <span id="icon">ToDoList</span>
+    <input type="text" id="input" placeholder="请输入待办事项">
+    <button id="submit">提交</button>
+</div>
+<div class="content">
+    <section>
+        <p class="title">
+            <span>待完成</span><span class="num" id="udNum">0</span>
+        </p>
+        <ul class="container" id="udList">
+            <!--<li class="item">-->
+                <!--<input type="checkbox"><span>HTML</span>-->
+                <!--<button>X</button>-->
+            <!--</li>-->
+        </ul>
+        <button class="clearAll" id="clearUD">清除全部</button>
+    </section>
+    <section>
+        <p class="title">
+            <span>已完成</span><span class="num" id="dNum">0</span>
+        </p>
+        <ul class="container" id="dList">
+
+        </ul>
+        <button class="clearAll" id="clearD">清除全部</button>
+    </section>
+</div>
+<div class="footer">
+    <span>Copyright&copy;JGC 2019</span>
+</div>
+<script src="./js/index.js"></script>
+</body>
+</html>
